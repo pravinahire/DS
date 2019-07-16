@@ -1,6 +1,6 @@
 
 struct node {
-	struct node *next;
+	struct node *fext;
 	int data;
 };
  
