@@ -22,3 +22,6 @@ extern Node * InsertAtEnd(Node *,int);
 
 extern Node * InsertAtPosition(Node *,int,int);
 
+extern Node * MoveZerosToFront(Node *);
+
+extern Node *  deleteNode(Node *, Node *);

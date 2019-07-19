@@ -16,6 +16,13 @@ int main() {
      printf("\n");
      NewList = InsertAtPosition(NewList,4,10);
      Display(NewList);
+	 printf("\n");
+	 NewList = MoveZerosToFront(NewList);
+	 Display(NewList);
+	 printf("\n");
+	 /*Node *nodeToDelete=(NewList->next->next->next);
+	 NewList=deleteNode(NewList,nodeToDelete);
+	 Display(nodeToDelete);*/
      printf("\n");
      return 0;
 }
